@@ -38,7 +38,7 @@ function App() {
 
   return (
     <div className="app">
-      <BrowserRouter>
+      <BrowserRouter basename="/postkidweb">
         <aside ref={tabsParent}>
           {tabs.map((tab, index) => (
             
